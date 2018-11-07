@@ -135,7 +135,7 @@ while (<IN>){
 		$remain_base += length($true_seq);
 		$remain_read++;
 	}else{
-		print DISCARD $first_line.$first_seq if (defined $options{discard_file});
+		print DISCARD $delimiter.$_ if (defined $options{discard_file});
 		$discard_base += length($true_seq);
 		$discard_read++;
 	}
