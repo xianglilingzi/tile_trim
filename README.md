@@ -1,2 +1,3 @@
 # tile_trim
-trim read base on the fastqc result
+Trim read base on the fastqc result
+Remove low quality tile sequences from a FASTQ file
