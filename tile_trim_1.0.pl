@@ -187,7 +187,7 @@ sub check_parameters {
 	$options{tile_quality_threshold} = -7 unless (defined $options{tile_quality_threshold});
 }
 
-sub get_index{
+sub get_index {
 	open QC, "$options{qc_file}" or die "Can't open file $options{qc_file}.\n";
 	$/=">>";<QC>;
 	while (<QC>){
