@@ -12,18 +12,18 @@ USAGE:
 
 Optional arguments:
 
-    --input_file,-i		Path to a low quality FASTQ file
-    --tile_coordinate,-c	A list of low quality tile sequences coordinate, comma-separated values (int:int-int,)
-    --qc_file,-q		Path to a FASTQC quality control result file (fastqc_data.txt)
-    --tile_quality_threshold,-t	Tile quality threshold for saving tile sequences (default=-5)
-    --whole,-w			Removed all of the reads of the low quality tile
-    --left_position,-pl		Trim the left bases of this position (1-based)
-    --right_position,-pr	Trim the right bases of this position (1-based)
-    --min_length,-l		Length threshold for filtering reads (default=0)
-    --output_file,-o		Path to a remaining file
-    --discard_file,-d		Path to a discarded file
-    --log_file,-log		Path to a log file
-    --help,-h			help message
+    --input_file,-i			Path to a low quality FASTQ file
+    --tile_coordinate,-c		A list of low quality tile sequences coordinate, comma-separated values (int:int-int,)
+    --qc_file,-q			Path to a FASTQC quality control result file (fastqc_data.txt)
+    --tile_quality_threshold,-t		Tile quality threshold for saving tile sequences (default=-5)
+    --whole,-w				Removed all of the reads of the low quality tile
+    --left_position,-pl			Trim the left bases of this position (1-based)
+    --right_position,-pr		Trim the right bases of this position (1-based)
+    --min_length,-l			Length threshold for filtering reads (default=0)
+    --output_file,-o			Path to a remaining file
+    --discard_file,-d			Path to a discarded file
+    --log_file,-log			Path to a log file
+    --help,-h				help message
 
 =head1 OPTIONS
 
